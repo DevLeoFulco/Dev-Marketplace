@@ -1,0 +1,26 @@
+.produto-card {
+    overflow: hidden;
+  }
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .produto-info {
+    padding: 1rem;
+  }
+  h3 {
+    margin-bottom: 0.5rem;
+    color: var(--gray-700);
+  }
+  .produto-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .price {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary-blue);
+  }
