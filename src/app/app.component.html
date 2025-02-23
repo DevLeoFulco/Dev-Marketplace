@@ -22,7 +22,7 @@
     <section class="produtos">
       <h2>Desenvolvedores em destaque</h2>
       <div class="produtos-grid">
-        <app-produto-card *ngFor="let i of [1,2,3,4,5,6]"></app-produto-card>
+        <app-produto-card *ngFor="let produto of produtos" [produto]="produto"></app-produto-card>
       </div>
     </section>
   </div>
