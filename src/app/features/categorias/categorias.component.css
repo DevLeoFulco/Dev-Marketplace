@@ -1,0 +1,24 @@
+.hero {
+    text-align: center;
+    padding: 3rem 0;
+    background-color: var(--light-blue);
+    border-radius: 12px;
+    margin-bottom: 2rem;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    color: var(--primary-blue);
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    color: var(--gray-700);
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+  }

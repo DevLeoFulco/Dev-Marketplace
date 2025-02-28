@@ -1,0 +1,11 @@
+<div class="card">
+    <img [src]="produto.image" [alt]="produto.name">
+    <div class="content">
+      <h3>{{ produto.name }}</h3>
+      <p>{{ produto.description }}</p>
+      <div class="footer">
+        <span class="price">R$ {{ produto.price }}/hora</span>
+        <button class="btn btn-primary">Contratar</button>
+      </div>
+    </div>
+  </div>

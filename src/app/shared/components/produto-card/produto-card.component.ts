@@ -1,13 +1,13 @@
-import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Produto } from '../../shared/interface/produto.interface';
+import { Component, Input } from '@angular/core';
+import { Produto } from '../../interface/produto.interface';
 
 @Component({
   selector: 'app-produto-card',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './produto-card.component.html',
-  styleUrls: ['./produto-card.component.css']
+  styleUrl: './produto-card.component.css'
 })
 export class ProdutoCardComponent {
   @Input() produto!: Produto;

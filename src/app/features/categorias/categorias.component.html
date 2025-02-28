@@ -1,0 +1,12 @@
+<section class="hero">
+    <h2>Encontre Desenvolvedores por Especialidade</h2>
+    <p>Conecte-se com profissionais especializados para seu projeto</p>
+  </section>
+  <section class="categorias">
+    <div class="grid">
+      <app-produto-card 
+        *ngFor="let produto of produtos" 
+        [produto]="produto">
+      </app-produto-card>
+    </div>
+  </section>
