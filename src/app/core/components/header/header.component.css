@@ -1,0 +1,32 @@
+.header {
+    background-color: var(--white);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    color: var(--primary-blue);
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .login-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--primary-blue);
+    border-radius: 4px;
+    background: transparent;
+    color: var(--primary-blue);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .login-btn:hover {
+    background: var(--primary-blue);
+    color: var(--white);
+  }

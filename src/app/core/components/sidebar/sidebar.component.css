@@ -1,0 +1,63 @@
+.sidebar {
+    background: var(--primary-blue);
+    width: 60px;
+    transition: width 0.3s ease;
+    position: relative;
+  }
+  
+  .sidebar.expanded {
+    width: 240px;
+  }
+  
+  .nav-menu {
+    padding: 1rem 0;
+  }
+  
+  .toggle-btn {
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .toggle-btn fa-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .toggle-btn fa-icon.rotated {
+    transform: rotate(180deg);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li a {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    color: var(--white);
+    text-decoration: none;
+    transition: background-color 0.2s;
+    white-space: nowrap;
+  }
+  
+  li a:hover {
+    background-color: var(--dark-blue);
+  }
+  
+  .label {
+    margin-left: 1rem;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  
+  .sidebar.expanded .label {
+    opacity: 1;
+  }
+  
+  .active {
+    background-color: var(--dark-blue);
+  }
